@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>SRIT PLACEMENT CELL</title>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:800px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<img src="laaa.png" alt="Mountain View">
+</div>
+
+<div id="nav">
+<label>First Name :<input type="text" placeholder="FirstName" id="fname"></label><br>
+<label>Last Name :<input type="text" placeholder="LastName" id="lname"></label><br>
+<label>Register Number :<input type="number" placeholder="RegNo" id="regno"></label><br>
+<label>Department :</label>
+<select id="dept">
+  <option value="cse">CSE</option>
+  <option value="civil">CIVIL</option>	
+  <option value="eee">EEE</option>
+  <option value="ece">ECE</option>
+  <option value="it">IT</option>
+  <option value="mech">MECH</option>
+</select><br>
+<label>Year :</label>
+<select id="year">
+
+	<option value="first">I</option>
+	<option value="second">II</option>
+	<option value="third">III</option>
+	<option value="fourth">IV</option>
+</select><br>
+<label>E-Mail ID:<input type="text" placeholder="Email" id="email"></label><br>
+<label>Password:<input type="password" placeholder="Password" id="pass"></label><br>
+<label>Confirm Password:<input type="password" placeholder="Confirm Password" id="cpass"></label><br>
+<label>CGPA :<input type="number" placeholder="CGPA" id="cgpa"></label><br>
+<input type="submit" value="SUBMIT"/>
+
+
+</div>
+
+<div id="section">
+<label>Email ID :<input type="text" placeholder="Email" id="uname"></label><br>
+<label>Password :<input type="password" placeholder="Password" id="lpass"></label><br>
+<input type="submit" value="SUBMIT"/>
+
+</div>
+
+<div id="footer">
+<h3> ©sri ramakrishna institute if technonlogy© </h3>
+</div>
+
+
+
+</body>
+</html>
